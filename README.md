@@ -30,7 +30,8 @@ are kept secret).
 
 The following environment variables are needed to configure the function:
 
-- `TARGET_STREAM_NAME`
+- `MONGODB_URL`
+- `KINESIS_STREAM_NAME`
 
 NOTE: since the project uses `lambda-deploy`, in the build environment (Travis)
 we need to define the above variables with their name prefixed by
