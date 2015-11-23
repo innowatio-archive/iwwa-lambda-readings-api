@@ -1,9 +1,12 @@
-import Collection from "lk-collection";
+import Collection, {setLogger} from "lk-collection";
 import dotenv from "dotenv";
-
-dotenv.load();
+import bunyan from "bunyan";
 
 import schema from "./schema";
+
+dotenv.load();
+const logger = bunyan.createLogger({name: "ReadingsApi"});
+setLogger(logger);
 
 const Readings = new Collection({
     name: "readings",
