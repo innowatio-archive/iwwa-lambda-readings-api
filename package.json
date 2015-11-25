@@ -1,16 +1,16 @@
 {
-  "name": "iwwa-lambda-kinesis-pipe",
+  "name": "iwwa-lambda-readings-api",
   "version": "1.0.0",
   "description": "Pipe one kinesis stream into another",
   "main": "src/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/innowation/iwwa-lambda-kinesis-pipe.git"
+    "url": "https://github.com/innowation/iwwa-lambda-readings-api.git"
   },
   "dependencies": {
     "bunyan": "^1.5.1",
     "dotenv": "^1.2.0",
-    "lk-collection": "^3.0.1"
+    "lk-collection": "^3.1.0"
   },
   "devDependencies": {
     "babel": "^5.8.34",

@@ -9,6 +9,9 @@ export default {
             "type": "string",
             "format": "date-time"
         },
+        "virtual": {
+            "type": "boolean"
+        },
         "measurements": {
             "type": "array",
             "items": {

@@ -1,9 +1,8 @@
-[![Build Status](https://travis-ci.org/innowatio/iwwa-lambda-kinesis-pipe.svg?branch=master)](https://travis-ci.org/innowatio/iwwa-lambda-kinesis-pipe)
-[![Coverage Status](https://coveralls.io/repos/innowatio/iwwa-lambda-kinesis-pipe/badge.svg?branch=master&service=github)](https://coveralls.io/github/innowatio/iwwa-lambda-kinesis-pipe?branch=master)
-[![Dependency Status](https://david-dm.org/innowatio/iwwa-lambda-kinesis-pipe.svg)](https://david-dm.org/innowatio/iwwa-lambda-kinesis-pipe)
-[![devDependency Status](https://david-dm.org/innowatio/iwwa-lambda-kinesis-pipe/dev-status.svg)](https://david-dm.org/innowatio/iwwa-lambda-kinesis-pipe#info=devDependencies)
+[![Build Status](https://travis-ci.org/innowatio/iwwa-lambda-readings-api.svg?branch=master)](https://travis-ci.org/innowatio/iwwa-lambda-readings-api)
+[![Dependency Status](https://david-dm.org/innowatio/iwwa-lambda-readings-api.svg)](https://david-dm.org/innowatio/iwwa-lambda-readings-api)
+[![devDependency Status](https://david-dm.org/innowatio/iwwa-lambda-readings-api/dev-status.svg)](https://david-dm.org/innowatio/iwwa-lambda-readings-api#info=devDependencies)
 
-# iwwa-lambda-kinesis-pipe
+# iwwa-lambda-readings-api
 
 Pipes one kinesis stream into another.
 
