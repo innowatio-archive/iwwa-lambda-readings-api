@@ -10,7 +10,7 @@
   "dependencies": {
     "bunyan": "^1.5.1",
     "dotenv": "^1.2.0",
-    "lk-collection": "^3.1.0"
+    "lk-collection": "^3.2.1"
   },
   "devDependencies": {
     "babel": "^5.8.34",
