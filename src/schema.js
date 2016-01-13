@@ -12,6 +12,10 @@ export default {
         "virtual": {
             "type": "boolean"
         },
+        "source": {
+            "type": "string",
+            "enum": ["forecast", "reading"]
+        },
         "measurements": {
             "type": "array",
             "items": {
@@ -34,7 +38,6 @@ export default {
                 },
                 "required": [
                     "type",
-                    "source",
                     "value",
                     "unitOfMeasurement"
                 ]
